@@ -1,12 +1,12 @@
-.about {
+.benefits {
     padding-top: 94px;
 }
 
-.about-list {
+.benefits__list {
     display: flex;
 }
 
-.about-item {
+.benefits__item {
     width: 270px;
 
     &:not(:last-child) {
@@ -14,7 +14,7 @@
     }
 }
 
-.icons {
+.box-img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,14 +28,14 @@
     background-color: #f5f4fa;
 }
 
-.about-title {
+.benefits__title {
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
 }
 
-.about-text {
+.benefits__text {
     line-height: 1.71;
     color: var(--primary-text-color);
 }

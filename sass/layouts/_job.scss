@@ -2,7 +2,11 @@
     padding-top: 0;
 }
 
-.section-item:not(:last-child) {
+.job__list{
+    display: flex;
+}
+
+.job__item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -10,7 +14,7 @@
     position: relative;
 }
 
-.label-box {
+.job-box__label {
     position: absolute;
     bottom: 0;
     width: 100%;

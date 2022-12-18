@@ -6,11 +6,11 @@
     margin-bottom: 50px;
 }
 
-.filter-list:not(:last-child) {
+.filter__list:not(:last-child) {
     margin-right: 8px;
 }
 
-.radio-button {
+.filter__button {
     display: inline-block;
     padding: 6px 22px;
     border: transparent;
