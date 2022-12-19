@@ -1,15 +1,17 @@
+@import './utils/variables';
+@import './utils/hidden';
+
 @import './base/common';
 @import './base/reset';
-@import './base/hidden';
-
-@import './utils/variables';
 
 @import './components/container';
+@import './components/section';
+@import './components/section__title';
+@import './components/modal-window';
+@import './components/modal-form';
 
 @import './layouts/header';
 @import './layouts/hero';
-@import './layouts/modal-window';
-@import './layouts/modal-form';
 @import './layouts/benefits';
 @import './layouts/job';
 @import './layouts/team';
@@ -17,6 +19,5 @@
 @import './layouts/footer';
 @import './layouts/footer-social';
 @import './layouts/footer-form';
-
-@import './layouts/portfolio/filter';
-@import './layouts/portfolio/work';
+@import './layouts/filter';
+@import './layouts/work';
